@@ -1,7 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
+import { Skills } from './components/skills/skills'
+import { Application } from './components/application/application'
+const skills = ['HTML', 'CSS', 'JavaScript']
 function App() {
   return (
     <div className="App">
@@ -19,8 +21,10 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* <Skills skills={skills} /> */}
+      {/* <Application /> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
